@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+
+        @font-face {
+            font-family: "nova";
+            src: url('fontes/idroid.otf')format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'bebas';
+            src: url(fontes/BebasNeue-Regular.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }   
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: rgb(126, 224, 165);
+            
+            
+            
+        }
+        p {
+            text-align: justify;
+            margin: 15px 0px;
+            text-indent: 30px;
+            line-height: 1.5em;
+            font-size: 1em;
+        }
+        .alinhar{
+            text-align: center;
+            
+        }
+        header {
+            background-image: linear-gradient(to top, #063D1E 10%, #2FA866);
+            color: white;
+            padding: 10px 10px 10px 10px;
+            min-height: 150px;
+            box-shadow: 2px 2px 3px rgb(0, 0, 0, 0.400);
+            text-shadow: 1px 2px 1px black;
+        
+        }
+        main {
+            background-color: white;
+            padding: 20px; 
+            min-width: 300px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.466);
+            margin-bottom: 20px;
+            margin-top: 0px;
+
+            
+        } 
+        main img {
+            width: 100%;
+        }
+        nav > a{
+            background-color: #063D1E;
+            color: white;
+            text-decoration: none;
+            /* padding-right: 10px; */
+        }
+        nav > a:hover{
+            background-color: rgba(47, 168, 101, 0.486);
+        }
+        .tituloprincipal {
+            font-family: 'bebas',cursive;
+            margin-bottom: 30px;
+            margin-top: 30px;
+           
+        }
+        .destaque1 {
+            color: rgb(6, 61, 30);
+            font-weight: bold;
+            text-decoration: none;
+        }
+       .destaque2:hover {
+            background-color: rgb(6, 61, 30);
+            color: white;
+            
+        }
+        h1#titulo1 {
+            color: rgb(6, 61, 30);
+            font-family: 'nova',sans-serif;
+            font-size: 1.5em;
+            text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.514);
+        }
+        .titulo2 {
+            background-image: linear-gradient(to right,#3DDB84, #7EE0A5, transparent);
+            font-family: 'nova',sans-serif;
+            color: rgb(6, 61, 30);
+            border-radius: 8px 0px 0px 8px;
+            text-indent: 10px;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.466);
+            font-size: 1.3em;
+        }
+        .pequena {
+            display: block;
+            max-width: 350px;
+            margin: auto;
+        }
+        
+        h3#extra {
+            background-color: rgb(47, 168, 102);
+            padding: 10px 5px 5px 25px;
+            margin-right: -10px;
+            margin-left:  -5px;
+            text-indent: -15px;
+            color: white;
+        }
+        .decorar{
+            background-color: rgb(196, 235, 214);
+            margin: 10px;
+            border-radius: 5px 5px 5px 5px;
+            box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.514);
+            padding: 0px 10px 5px 5px;
+
+        }
+        .texto{
+            text-decoration: underline;
+        }
+        section#caixavideo {
+            /* position: relative; */
+            background-color: rgb(8, 102, 8);
+            /* padding-top: 10px; */
+            /* padding-left: 40px;
+            padding-bottom: 10px; */
+            padding: 10px 0px 10px 20px;
+            /* margin: 20px 20px 40px 20px; */
+            
+        }
+        
+        footer > p {
+            background-color: rgb(26, 90, 55);
+            color: white;
+            text-align: center;
+            font-size: 1em;
+            padding: 10px;
+        }
+        .imagem {
+            width: 100%;
+        }
+ 
