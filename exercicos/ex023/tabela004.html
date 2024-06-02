@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        :root {
+            --cor1: #00ffff;
+            --cor2: #7fffd4;
+            --cor3: #53ee5b;
+        }
+        .cor1 {
+            background-color: var(--cor1);
+        }
+        .cor2 {
+            background-color: var(--cor2);
+        }
+        .cor3 {
+            background-color: var(--cor3);
+        }
+        caption {
+            padding: 10px;
+            border: 1px solid black;
+            font-weight: bolder;
+            background-color: rgb(24, 134, 134);
+            font-size: 1.4em;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            /* width: 300px; */
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td {
+            text-align: left;
+        }
+        th {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead class="cor3">
+            <tr>
+                <th scope="colgroup">Grupo</th>
+                <th scope="colgroup">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr class="cor1">
+                    <th rowspan="3" scope="rowgroup">Mulheres</th>
+                    <td>Ana MAria Santos</td>
+                    <td >Alien</td>
+                    <td>Rambo</td>
+                    <td>Vingadores</td>
+                </tr>
+                <tr class="cor1">
+                    <td>Beatriz Souza</td>
+                    <td>Hulk</td>
+                    <td>Inception</td>
+                    <td>Batman</td>
+                </tr>
+                    
+                <tr class="cor1">
+                    <td>Cláudia Melo</td>
+                    <td>Oblivion</td>
+                    <td>atrix</td>
+                    <td>Big Hero</td>
+                </tr>
+                <tr class="cor2">
+                    <th rowspan="3" scope="rowgroup">Homens</th>
+                    <td>Bruno Mendonça</td>
+                    <td>Intocáveis</td>
+                    <td>Amnésia</td>
+                    <td>Gladiador</td>
+                </tr>
+                <tr class="cor2">
+                    <td>Daniel Lourenço</td>
+                    <td>Wall-E</td>
+                    <td>Oldboy</td>
+                    <td>Dangal</td>
+                </tr>
+                <tr class="cor2">
+                    <td>Fabiana Mota</td>
+                    <td>Star Wars</td>
+                    <td>Taxi Driver</td>
+                    <td>Toy Story</td>
+                </tr>
+        </tbody>
+        
+    </table>
+    
+</body>
+</html>
