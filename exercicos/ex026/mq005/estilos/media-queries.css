@@ -19,7 +19,7 @@
     i#burger {
         display: none;
     }
-    menu {
+    header > menu {
         /* height: 60px; */
         display: block;
     }
