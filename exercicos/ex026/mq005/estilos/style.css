@@ -29,14 +29,14 @@ i#burger:hover {
     color: black;
 }
 menu {
-    display: block;
+    display: none;
 
   }  
-menu {
+/* menu {
     height: 0px;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
-}
+} */
 
 menu ul {
     list-style-type: none;
