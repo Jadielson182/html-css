@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex-basis/title>
+    <title>Flexible Box</title>
     <STYle>
         div.conteiner {
             background-color: lightsalmon;
@@ -14,20 +14,32 @@
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
-            /* flex-basis: 150px; */
-            flex-basis: auto;
+            flex-basis: 200px;
+
+
         }
+        /* .grow3 {
+            flex-grow: 0;
+        }
+        .grow1 {
+            flex-grow: 1;
+
+        }
+        .grow2 {
+            flex-grow: 2;
+
+        } */
     </STYle>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">Outro conteúdo</div>
-        <div class="item">C</div>
-        <div class="item">conteúdo ainda maior</div>
+        <div class="item grow3">A</div>
+        <div class="item grow1">B</div>
+        <div class="item grow2">C</div>
+        <!-- <div class="item">D</div>
         <div class="item">E</div>
-        <div class="item">Conteúdo maior ainda, que vai ocupar mais espaço</div>
-        <div class="item">G</div>
+        <div class="item">F</div>
+        <div class="item">G</div> -->
 
 
     </div>
