@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../font/GreatVibes-Regular.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LibreBaskerville';
+    src: url('../font/LibreBaskerville-Bold.ttf') format(truetype);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    list-style: none;
+}
+header {
+    background-color: deeppink;
+    color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header > h1 {
+    font-family: 'Great Vibes';
+    font-size: 35px;
+}
+header > nav > ul  {
+    flex-flow: row nowrap;
+    display: flex;
+    
+}
+header > nav > ul > li {
+    padding-right: 50px;
+}
+header > nav > ul > li > a {
+    color: black;
+}
+body {
+    background-image: url(../img/fundo.jpg);
+    background-attachment: fixed;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+.galeria1 {
+   display: flex;
+   flex-flow: row wrap;
+   
+}
+.galeria1 > div {
+    flex: 1 1 360px;
+}
+main {
+    min-width: 30%;
+    max-width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px  0px 3px rgba(0, 0, 0, 0.616);
+    font-family: 'LibreBaskerville';
+}
+main > .galeria1 > div {
+    padding: 20px;
+    margin: 10px;
+
+}
+main > h1 {
+    text-align: center;
+}
+footer {
+    background-color: deeppink;
+    padding: 20px;
+}
+footer > p {
+    text-align: center;
+}
