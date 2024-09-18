@@ -83,10 +83,45 @@ main > .galeria1 > div {
 main > h1 {
     text-align: center;
 }
+section.contato {
+    border-radius: 10px;
+    /* max-height: 300px; */
+    background-color: rgb(247, 224, 248);
+
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+}
+section > h2 {
+    padding-bottom: 30px;
+    font-size: 30px;
+}
 footer {
     background-color: deeppink;
     padding: 20px;
+
 }
-footer > p {
-    text-align: center;
+
+.pequeno{
+    width: 60px;
+    height: 50px;
+}
+.cor1 {
+    color: deeppink;
+}
+
+.logo{
+    width: 50px;
+    border-radius: 50%;
+    margin: 0%;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+}
+.logo:hover {
+    border: 2px solid rgba(224, 96, 96, 0.623);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.637);
+    transform: translate(-4px, -4px);
+    transition-duration: 0.2s;
+}
+.logo:active {
+    transform: scale(95%);
 }
