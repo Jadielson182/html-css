@@ -85,6 +85,9 @@ main > .galeria1 > div {
     margin: 10px;
     text-align: center;
     font-size: 40px;
+    background-color: rgba(255, 20, 145, 0.603);
+    border-radius: 25px;
+    font-family: 'LibreBaskerville';
 
 }
 
