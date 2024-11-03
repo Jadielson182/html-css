@@ -80,6 +80,14 @@ main > .galeria1 > div {
     margin: 10px;
 
 }
+.titulo{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
 main > h1 {
     text-align: center;
 }
